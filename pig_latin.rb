@@ -12,7 +12,7 @@
 require 'rainbow'
 
 def pig_latin(word)
-consonants =  %w(b c d f g h j k l m n p q r s t v x z y,th)
+consonants =  %w(b c d f g h j k l m n p q r s t v x z y th)
 vowels = %w(a e i o u)
  consonants.each do |letter|
 	  new_word = word[1..-1]
@@ -27,4 +27,4 @@ vowels = %w(a e i o u)
 				end
 			end
 end
-pig_latin("rhythm")
+pig_latin("egg")
